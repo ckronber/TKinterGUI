@@ -2,13 +2,13 @@ import os,os.path
 import tkinter as tk
 from tkinter import *
 from tkinter import filedialog
-from PIL import ImageTk, Image
+#from PIL import ImageTk, Image
 
 root = Tk()
 root.title("Simple Calculator")
 
 #adds an ico image to the display
-root.iconbitmap("C:\\Users\ckron\Desktop\TKinter GUI\calc.ico")
+root.iconbitmap("C:\\Users\ckron\Desktop\TKinterGUI\calc.ico")
 #my_img = ImageTk.PhotoImage(Image.open("C:\\Users\ckron\Desktop\TKinter GUI\\volcano.jpg"))
 #my_label = Label(image=my_img,width=300,height=150)
 
@@ -17,7 +17,7 @@ button_quit = Button(root, text = "Exit Program",background = "red",pady=10,comm
 e = Entry(root, width=35, borderwidth=5)
 e.grid(row=0,column=0, columnspan=3, padx=10, pady=10)
 
-def button_click(number):
+def button_click(number): 
 	current = e.get()
 	e.delete(0,END)
 	e.insert(0,str(current) + str(number))

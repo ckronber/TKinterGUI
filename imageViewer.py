@@ -7,11 +7,11 @@ from PIL import ImageTk, Image
 root = Tk()
 root.title("Image Viewer")
 
-my_img1 = ImageTk.PhotoImage(Image.open("C:\\Users\ckron\Desktop\TKinter GUI\Images\pic1.jpg"),size = .5)
-my_img2 = ImageTk.PhotoImage(Image.open("C:\\Users\ckron\Desktop\TKinter GUI\Images\pic2.jpg"),size = .5)
-my_img3 = ImageTk.PhotoImage(Image.open("C:\\Users\ckron\Desktop\TKinter GUI\Images\pic3.jpg"),size = .5)
-my_img4 = ImageTk.PhotoImage(Image.open("C:\\Users\ckron\Desktop\TKinter GUI\Images\pic4.jpg"),size = .5)
-my_img5 = ImageTk.PhotoImage(Image.open("C:\\Users\ckron\Desktop\TKinter GUI\Images\pic6.jpg"),size = .5)
+my_img1 = ImageTk.PhotoImage(Image.open("C:/Users/ckron/Desktop/TKinterGUI/Images/pic1.jpg"),size = .5)
+my_img2 = ImageTk.PhotoImage(Image.open("C:/Users/ckron/Desktop/TKinterGUI/Images/pic2.jpg"),size = .5)
+my_img3 = ImageTk.PhotoImage(Image.open("C:/Users/ckron/Desktop/TKinterGUI/Images/pic3.jpg"),size = .5)
+my_img4 = ImageTk.PhotoImage(Image.open("C:/Users/ckron/Desktop/TKinterGUI/Images/pic4.jpg"),size = .5)
+my_img5 = ImageTk.PhotoImage(Image.open("C:/Users/ckron/Desktop/TKinterGUI/Images/pic6.jpg"),size = .5)
 
 image_list = [my_img1,my_img2,my_img3,my_img4,my_img5]
 

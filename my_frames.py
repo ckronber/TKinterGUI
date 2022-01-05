@@ -13,8 +13,8 @@ b = Button(frame, text = "Don't push me!")
 b.grid(row=0,column=0)
 b2 = Button(frame, text = "Don't You Dare!")
 b2.grid(row=1,column=0)
-#Event Loop
 
+#Event Loop
 frame2 = LabelFrame(root,text = "Radio Frame",padx =20, pady=20)
 frame2.pack(padx=100, pady=10)
 

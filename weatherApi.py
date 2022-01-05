@@ -7,7 +7,7 @@ import json,requests,sqlite3
 from requests import api
 
 root = Tk()
-root.title("Address Information Database")
+root.title("Air Quality Information from airnow.org")
 root.geometry("400x350")
 
 zip_label = Label(root,text = "Enter Zip Code")
@@ -29,8 +29,9 @@ def get_weather_data():
         api = "Error: "+ str(e)
 
     myText = []
-    my_label = Label(myFrame,text=api)
-    my_label.pack()
+    #my_label = Label(myFrame,text=api)
+    #my_label.pack()
+
     locText = "Location: "+ api[0]['ReportingArea'] + " |  Date: " + api[0]['DateObserved']
     my_label1 = Label(root, text=locText).pack()
 

@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import *
 from tkinter import filedialog,messagebox, filedialog
-from PIL import ImageTk,Image
+#from PIL import ImageTk,Image
 
 root = Tk()
 root.title("Click Button to See Image")
